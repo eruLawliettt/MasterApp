@@ -1,6 +1,4 @@
 ﻿using MasterApp;
 
-Console.WriteLine("Hello, World!");
-
-Person person = new(1, "Russel");
-Console.WriteLine("Я " + person.ToString());
+Person Dima = new(1, "Дима", "Недоводненко");
+Console.WriteLine(Dima.ToString());
